@@ -1,0 +1,655 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+
+    <a href="#" class="logo"> <span>S</span>ahyog <span>T</span>ourism</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Book A Ticket & Just Leave</h3>
+        <p>dicover new places with us, Powered by nature</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-17.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-16.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-18.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-13.mp4"></span>
+    </div>
+
+    
+    <div class="video-container">
+        <video src="images/vid-17.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/tour.webp" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Destination</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/meghalaya.avif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Meghalaya </h3>
+                <p>“The journey of a thousand miles begins with a single step.”</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹5999.00 <span>₹10000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/jaipur.avif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Jaipur </h3>
+                <p>“Dare to live the life you've always wanted.” </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹9999.00 <span>₹43999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/lucknow.avif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Lucknow</h3>
+                <p>I haven't been everywhere, but it's on my list.” – Popular Travel Quote</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹8999.00 <span>₹9999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/gujrat.avif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Gujrat </h3>
+                <p>“Have stories to tell not stuff to show.”</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">₹5999.00<span>₹7999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Assam.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Assam </h3>
+                <p>I haven't been everywhere, but it's on my list.” – Popular Travel Quote</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹4999.00 <span>₹7999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Kashmir.webp" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Kashmir </h3>
+                <p>“The journey of a thousand miles begins with a single step.”</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹2999.00 <span>₹8999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/kerla.avif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Kerla </h3>
+                <p>I haven't been everywhere, but it's on my list.” – Popular Travel Quote</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹3999.00 <span>₹6999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/uttrakhand.avif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Uttrakhand </h3>
+                <p>“Have stories to tell not stuff to show.”</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">₹3999.00 <span>₹9999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/punjab.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Punjab </h3>
+                <p>“The journey of a thousand miles begins with a single step.”</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹6999.00 <span>₹9999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+       
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Are you dreaming of a place to stay? We are here! Book your stay with us, and you’ll be happy to come back</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Drink up! Quenching your thirst has never been this tasty. Satisfaction down to the last drop.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>Safety is no accident. Never forget about safety.  Best Be Safe Today. Stand up for safety.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>one who overlooks your broken fence and admires the flowers in your garden.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>“The journey of a thousand miles begins with a single step.” ... “Adventures are the best way to learn.” ...</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>"After a day's walk, everything has twice its usual value." "There are no shortcuts to any place worth going." </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/a1.avif" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>If you are in a beautiful place where you can enjoy sunrise and sunset, then you are living like a lord. ..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/a2.avif" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>If you are in a beautiful place where you can enjoy sunrise and sunset, then you are living like a lord. ..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/a3.avif" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>If you are in a beautiful place where you can enjoy sunrise and sunset, then you are living like a lord. ..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/a4.avif" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>If you are in a beautiful place where you can enjoy sunrise and sunset, then you are living like a lord. ..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/a5.avif" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>If you are in a beautiful place where you can enjoy sunrise and sunset, then you are living like a lord. ..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/a6.avif" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>If you are in a beautiful place where you can enjoy sunrise and sunset, then you are living like a lord. ..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/a7.avif" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>If you are in a beautiful place where you can enjoy sunrise and sunset, then you are living like a lord. ..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/a8.avif" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>If you are in a beautiful place where you can enjoy sunrise and sunset, then you are living like a lord. ..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/a9.avif" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>If you are in a beautiful place where you can enjoy sunrise and sunset, then you are living like a lord. ..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/a10.avif" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>If you are in a beautiful place where you can enjoy sunrise and sunset, then you are living like a lord. ..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/a11.avif" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>If you are in a beautiful place where you can enjoy sunrise and sunset, then you are living like a lord. ..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/a12.avif" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>If you are in a beautiful place where you can enjoy sunrise and sunset, then you are living like a lord. ..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/krishna.avif" alt="">
+                    <h3>Krishna pareek</h3>
+                    <p>It's difficult to put into words just how transformational travel can be. Thankfully, artists, authors, philosophers, and world travelers have captured that essence in inspirational travel quotes that remind us of our past journeys and serve as fuel for future trips. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic2.png" alt="">
+                    <h3>Manish ghonge</h3>
+                    <p>We've rounded up some of the best travel quotes from the likes of Anthony Bourdain, Oprah Winfrey, and more, so you can get excited about your next bucket list trip. These beautiful quotes also make perfect travel captions </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/kartik.avif" alt="">
+                    <h3>kartik verma</h3>
+                    <p>It's difficult to put into words just how transformational travel can be. Thankfully, artists, authors, philosophers, and world travelers have captured that essence in inspirational travel quotes that remind us of our past journeys and serve as fuel for future trips.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <h3>gauresh lad</h3>
+                    <p>We've rounded up some of the best travel quotes from the likes of Anthony Bourdain, Oprah Winfrey, and more, so you can get excited about your next bucket list trip. These beautiful quotes also make perfect travel captions this is it</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact2.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Contact NO :- 4533-2345-21    And Our          Phone NO :- 8932-1212-4523  And Our Branches are in Jaipur,kolkata,mumbai,Thane,Delhi,Kerla And Much More...</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Krishna pareek </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
